@@ -53,8 +53,7 @@ export default function Navbar() {
           <Button 
             className={`${isScrolled ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"}`}
           >
-            <Phone className="w-4 h-4 mr-2" />
-            (555) 123-4567
+            Get a Quote
           </Button>
         </div>
 

@@ -68,23 +68,11 @@ export default function Contact() {
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="bg-primary/10 p-3 rounded-lg text-primary">
-                  <Phone size={24} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Call Us</h3>
-                  <p className="text-muted-foreground">(555) 123-4567</p>
-                  <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 8am - 6pm</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg text-primary">
                   <Mail size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Email Us</h3>
-                  <p className="text-muted-foreground">hello@glassgleam.com</p>
-                  <p className="text-sm text-muted-foreground mt-1">Online support 24/7</p>
+                  <p className="text-muted-foreground">glassgleamwindowclean@outlook.com</p>
                 </div>
               </div>
 
@@ -95,7 +83,6 @@ export default function Contact() {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Service Area</h3>
                   <p className="text-muted-foreground">Danville, VA & surrounding areas</p>
-                  <p className="text-sm text-muted-foreground mt-1">Within 30 mile radius</p>
                 </div>
               </div>
             </div>
