@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Share2 } from "lucide-react";
 import qrCode from "@assets/ggqrcode_1767738636450.png";
 
@@ -12,11 +13,26 @@ export default function Contact() {
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
               Ready for a Brighter View?
             </h2>
-            <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
-              We serve Danville, VA and the surrounding communities with pride. Scan my digital business card to save my contact info instantly or send us an email to get started.
+            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+              We serve Danville, VA and the surrounding communities with pride. Scan my digital business card to save my contact info instantly.
             </p>
 
-            <div className="space-y-8">
+            <div className="bg-primary/5 border border-primary/10 rounded-2xl p-6 mb-12">
+              <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
+                <Mail className="text-primary" size={20} />
+                Get a Free Estimate
+              </h3>
+              <p className="text-muted-foreground mb-4">
+                Shoot me an email to get a free, no-obligation estimate for your home or business.
+              </p>
+              <Button asChild className="w-full sm:w-auto">
+                <a href="mailto:glassgleamwindowclean@outlook.com">
+                  Send Email
+                </a>
+              </Button>
+            </div>
+
+            <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="bg-primary/10 p-3 rounded-lg text-primary">
                   <Mail size={24} />
