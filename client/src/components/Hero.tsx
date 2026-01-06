@@ -38,11 +38,20 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-base h-12 px-8">
-                Get a Free Quote
+              <Button 
+                size="lg" 
+                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base h-12 px-8"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Scan My Business Card
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
-              <Button size="lg" variant="outline" className="bg-white/10 text-white border-white/20 hover:bg-white/20 backdrop-blur-sm text-base h-12">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="bg-white/10 text-white border-white/20 hover:bg-white/20 backdrop-blur-sm text-base h-12"
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 View Our Services
               </Button>
             </div>
