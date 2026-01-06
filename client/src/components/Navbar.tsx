@@ -31,9 +31,6 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2 group cursor-pointer">
-            <div className="bg-primary p-2 rounded-lg text-white group-hover:scale-110 transition-transform">
-              <Sparkles size={24} />
-            </div>
             <span className={`font-heading font-bold text-2xl ${isScrolled ? "text-foreground" : "text-white"}`}>
               Glass Gleam
             </span>

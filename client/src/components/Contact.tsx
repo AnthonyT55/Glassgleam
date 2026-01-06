@@ -35,12 +35,20 @@ export default function Contact() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    const subject = encodeURIComponent("Quote Request from " + values.name);
+    const body = encodeURIComponent(
+      `Name: ${values.name}\n` +
+      `Email: ${values.email}\n` +
+      `Phone: ${values.phone}\n\n` +
+      `Details:\n${values.details || "No additional details provided."}`
+    );
+    
+    window.location.href = `mailto:glassgleamwindowclean@outlook.com?subject=${subject}&body=${body}`;
+
     toast({
-      title: "Quote Request Sent!",
-      description: "We'll get back to you within 24 hours with your free estimate.",
+      title: "Opening Email Client...",
+      description: "We've prepared your quote request email. Please send it from your email app.",
     });
-    form.reset();
   }
 
   return (
