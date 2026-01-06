@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
-import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import { Sparkles } from "lucide-react";
 
@@ -12,7 +11,6 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
-        <Testimonials />
         <Contact />
       </main>
       
