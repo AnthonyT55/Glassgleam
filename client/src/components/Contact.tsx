@@ -22,14 +22,9 @@ export default function Contact() {
                 <Mail className="text-primary" size={20} />
                 Get a Free Estimate
               </h3>
-              <p className="text-muted-foreground mb-4">
-                Shoot me an email to get a free, no-obligation estimate for your home or business.
+              <p className="text-muted-foreground">
+                Shoot me an email at <span className="text-primary font-semibold">glassgleamwindowclean@outlook.com</span> to get a free, no-obligation estimate for your home or business.
               </p>
-              <Button asChild className="w-full sm:w-auto">
-                <a href="mailto:glassgleamwindowclean@outlook.com">
-                  Send Email
-                </a>
-              </Button>
             </div>
 
             <div className="space-y-6">
