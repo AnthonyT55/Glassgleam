@@ -13,25 +13,11 @@ const services = [
     icon: Home,
     title: "Residential Cleaning",
     description: "Interior and exterior window cleaning for homes of all sizes. We handle screens, sills, and tracks too.",
-    price: "From $149"
   },
   {
     icon: Building2,
     title: "Commercial Services",
     description: "Keep your storefront or office building looking professional. Flexible scheduling for minimal disruption.",
-    price: "Custom Quote"
-  },
-  {
-    icon: Droplets,
-    title: "Pressure Washing",
-    description: "Restore your driveways, sidewalks, and siding. Remove years of dirt, mold, and grime instantly.",
-    price: "From $199"
-  },
-  {
-    icon: Sparkles,
-    title: "Gutter Cleaning",
-    description: "Prevent water damage with our thorough gutter cleaning service. We remove all debris and flush downspouts.",
-    price: "From $129"
   }
 ];
 
@@ -48,11 +34,11 @@ export default function Services() {
             Our Premium Services
           </h2>
           <p className="text-muted-foreground text-lg">
-            More than just window cleaning. We offer a full suite of exterior cleaning solutions to make your property shine.
+            Professional window cleaning solutions tailored to your needs.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-none shadow-md bg-card/50 backdrop-blur-sm overflow-hidden relative">
               <div className="absolute top-0 left-0 w-1 h-full bg-primary scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-300" />
@@ -67,8 +53,7 @@ export default function Services() {
                 <CardDescription className="text-base mb-6">
                   {service.description}
                 </CardDescription>
-                <div className="flex items-center justify-between mt-auto">
-                  <span className="font-semibold text-primary">{service.price}</span>
+                <div className="flex items-center justify-end mt-auto">
                   <Button variant="ghost" size="sm" className="p-0 hover:bg-transparent text-muted-foreground hover:text-primary">
                     Learn more <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
