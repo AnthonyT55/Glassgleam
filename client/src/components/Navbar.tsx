@@ -37,21 +37,19 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-accent ${
-                isScrolled ? "text-foreground" : "text-white/90"
-              }`}
-            >
-              {link.name}
-            </a>
-          ))}
+          <a
+            href="#services"
+            className={`text-sm font-medium transition-colors hover:text-accent ${
+              isScrolled ? "text-foreground" : "text-white/90"
+            }`}
+          >
+            Services
+          </a>
           <Button 
             className={`${isScrolled ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"}`}
+            asChild
           >
-            Get a Quote
+            <a href="#contact">Business Card</a>
           </Button>
         </div>
 
