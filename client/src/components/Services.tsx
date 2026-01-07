@@ -50,14 +50,9 @@ export default function Services() {
                 <CardTitle className="text-xl font-bold">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base mb-6">
+                <CardDescription className="text-base">
                   {service.description}
                 </CardDescription>
-                <div className="flex items-center justify-end mt-auto">
-                  <Button variant="ghost" size="sm" className="p-0 hover:bg-transparent text-muted-foreground hover:text-primary">
-                    Learn more <ArrowRight className="ml-2 w-4 h-4" />
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}
