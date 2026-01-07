@@ -45,12 +45,14 @@ export default function Navbar() {
           >
             Services
           </a>
-          <Button 
-            className={`${isScrolled ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"}`}
-            asChild
+          <a
+            href="#contact"
+            className={`text-sm font-medium transition-colors hover:text-accent ${
+              isScrolled ? "text-foreground" : "text-white/90"
+            }`}
           >
-            <a href="#contact">Business Card</a>
-          </Button>
+            Business Card
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
