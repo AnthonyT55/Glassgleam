@@ -57,7 +57,7 @@ export default function Hero() {
             </div>
 
             <div className="mt-12 flex flex-wrap gap-6 text-white/80">
-              {['Fully Insured', 'Satisfaction Guaranteed', 'Eco-Friendly'].map((item) => (
+              {['Satisfaction Guaranteed', 'Eco-Friendly'].map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-accent" />
                   <span className="font-medium">{item}</span>
