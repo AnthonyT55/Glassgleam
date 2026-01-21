@@ -41,10 +41,12 @@ export default function Hero() {
               <Button 
                 size="lg" 
                 className="bg-accent text-accent-foreground hover:bg-accent/90 text-base h-12 px-8"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                asChild
               >
-                Scan My Business Card
-                <ArrowRight className="ml-2 w-4 h-4" />
+                <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+                  Request a Free Quote
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </a>
               </Button>
               <Button 
                 size="lg" 
