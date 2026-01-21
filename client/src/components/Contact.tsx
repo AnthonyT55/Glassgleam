@@ -56,30 +56,43 @@ export default function Contact() {
           </div>
 
           {/* QR Code Call to Action */}
-          <div className="bg-card rounded-3xl p-10 shadow-2xl border border-white/50 relative overflow-hidden group">
+          <div className="bg-card rounded-3xl p-8 shadow-xl border border-white/50 relative overflow-hidden group max-w-sm mx-auto">
             {/* Decorative background for the QR card */}
             <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors" />
             
             <div className="relative z-10 flex flex-col items-center text-center">
-              <div className="bg-white p-4 rounded-2xl shadow-inner mb-6 ring-1 ring-border">
+              <div className="bg-white p-3 rounded-xl shadow-inner mb-4 ring-1 ring-border">
                 <img 
                   src={qrCode} 
                   alt="Glass Gleam Digital Business Card" 
-                  className="w-48 h-48 md:w-64 md:h-64 object-contain"
+                  className="w-32 h-32 md:w-40 md:h-40 object-contain"
                 />
               </div>
               
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-bold mb-4">
-                <Share2 size={14} />
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-3">
+                <Share2 size={12} />
                 DIGITAL BUSINESS CARD
               </div>
               
-              <h3 className="text-2xl font-bold mb-3">Scan to Connect</h3>
-              <p className="text-muted-foreground max-w-xs">
-                Scan this code with your phone camera to instantly save our contact details and request a quote.
+              <h3 className="text-xl font-bold mb-2">Scan to Connect</h3>
+              <p className="text-muted-foreground text-sm">
+                Scan to save our contact details instantly.
               </p>
             </div>
           </div>
+        </div>
+
+        {/* Final CTA Button */}
+        <div className="mt-20 text-center">
+          <Button 
+            size="lg" 
+            className="bg-accent text-accent-foreground hover:bg-accent/90 text-xl h-16 px-12 font-bold shadow-lg hover:scale-105 transition-all"
+            asChild
+          >
+            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+              Request a Free Quote
+            </a>
+          </Button>
         </div>
       </div>
     </section>

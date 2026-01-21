@@ -49,7 +49,7 @@ export default function Navbar() {
             className={`${isScrolled ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"}`}
             asChild
           >
-            <a href="#contact">Business Card</a>
+            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">Quote</a>
           </Button>
         </div>
 
