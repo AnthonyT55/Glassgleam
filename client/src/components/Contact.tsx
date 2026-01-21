@@ -13,19 +13,9 @@ export default function Contact() {
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
               Ready for a Brighter View?
             </h2>
-            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+            <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
               We serve Danville, VA and the surrounding communities with pride. Scan my digital business card to save my contact info instantly.
             </p>
-
-            <div className="bg-primary/5 border border-primary/10 rounded-2xl p-6 mb-12">
-              <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
-                <Mail className="text-primary" size={20} />
-                Get a Free Estimate
-              </h3>
-              <p className="text-muted-foreground">
-                Shoot me an email at <span className="text-primary font-semibold">glassgleamwindowclean@outlook.com</span> to get a free, no-obligation estimate for your home or business.
-              </p>
-            </div>
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
