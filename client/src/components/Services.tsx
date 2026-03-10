@@ -12,12 +12,12 @@ const services = [
   {
     icon: Home,
     title: "Residential Cleaning",
-    description: "Interior and exterior window cleaning for homes of all sizes. We handle screens, sills, and tracks too.",
+    description: "Crystal-clear windows for your home, inside and out. Whether it's a single-story house or a two-story property, we handle it with care and precision.",
   },
   {
     icon: Building2,
     title: "Commercial Services",
-    description: "Keep your storefront or office building looking professional. Flexible scheduling for minimal disruption.",
+    description: "First impressions matter. Keep your storefront or office looking sharp with regular professional cleaning that won't disrupt your business.",
   }
 ];
 
@@ -31,7 +31,7 @@ export default function Services() {
       <div className="container px-4 md:px-6 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-foreground">
-            Our Premium Services
+            Our Professional Services
           </h2>
           <p className="text-muted-foreground text-lg">
             Professional window cleaning solutions tailored to your needs.

@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/modern_home_with_sparkling_clean_windows.png";
 import { motion } from "framer-motion";
@@ -58,14 +58,6 @@ export default function Hero() {
               </Button>
             </div>
 
-            <div className="mt-12 flex flex-wrap gap-6 text-white/80">
-              {['Satisfaction Guaranteed', 'Eco-Friendly'].map((item) => (
-                <div key={item} className="flex items-center gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-accent" />
-                  <span className="font-medium">{item}</span>
-                </div>
-              ))}
-            </div>
           </motion.div>
         </div>
       </div>

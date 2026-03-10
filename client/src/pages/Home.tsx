@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import TrustBar from "@/components/TrustBar";
 import Services from "@/components/Services";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Contact from "@/components/Contact";
 import { Sparkles } from "lucide-react";
 
@@ -10,7 +12,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <TrustBar />
         <Services />
+        <WhyChooseUs />
         <Contact />
       </main>
       
