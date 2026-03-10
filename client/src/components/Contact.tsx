@@ -25,10 +25,10 @@ export default function Contact() {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Email Us</h3>
                   <a 
-                    href="mailto:glassgleamwindowclean@outlook.com" 
+                    href="mailto:contact@glassgleamwindows.com" 
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    glassgleamwindowclean@outlook.com
+                    contact@glassgleamwindows.com
                   </a>
                 </div>
               </div>
