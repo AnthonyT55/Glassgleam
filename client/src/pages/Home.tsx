@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
+import SocialProof from "@/components/SocialProof";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Contact from "@/components/Contact";
@@ -13,6 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <TrustBar />
+        <SocialProof />
         <Services />
         <WhyChooseUs />
         <Contact />

@@ -1,41 +1,18 @@
-import { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBg1 from "@assets/generated_images/modern_home_with_sparkling_clean_windows.png";
-import heroBg2 from "@assets/IMG_5881_1773423832133.jpg";
-import heroBg3 from "@assets/IMG_5879_1773423838388.jpg";
+import heroBg from "@assets/IMG_5881_1773424053184.jpg";
 import { motion } from "framer-motion";
 
-const backgrounds = [heroBg1, heroBg2, heroBg3];
-
 export default function Hero() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image Slideshow with Overlay */}
+      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 bg-black">
-        {backgrounds.map((bg, index) => (
-          <div
-            key={bg}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-              index === currentImageIndex ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <img 
-              src={bg} 
-              alt="Window cleaning showcase" 
-              className="w-full h-full object-cover"
-            />
-          </div>
-        ))}
+        <img 
+          src={heroBg} 
+          alt="Clean modern home" 
+          className="w-full h-full object-cover opacity-70"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30 backdrop-blur-[2px]" />
       </div>
 
@@ -57,7 +34,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-              Premium window cleaning for homes and businesses. We bring the sparkle back to your view with professional, streak-free service.
+              Professional window cleaning for homes and businesses. We bring the sparkle back to your view with professional, streak-free service.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -80,7 +57,6 @@ export default function Hero() {
                 View Our Services
               </Button>
             </div>
-
           </motion.div>
         </div>
       </div>
