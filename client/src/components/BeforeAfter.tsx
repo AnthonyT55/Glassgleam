@@ -1,10 +1,8 @@
-import beforeAfter1 from "@assets/IMG_5879_1773424265404.jpg";
 import beforeAfter2 from "@assets/IMG_5880_1773424270710.jpg";
 import beforeAfter3 from "@assets/image_1773424277487.jpeg";
 
 export default function BeforeAfter() {
   const images = [
-    { src: beforeAfter1, alt: "Window cleaning transformation 1" },
     { src: beforeAfter2, alt: "Commercial window cleaning before and after" },
     { src: beforeAfter3, alt: "Residential window cleaning before and after" }
   ];
@@ -21,7 +19,7 @@ export default function BeforeAfter() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {images.map((img, index) => (
             <div key={index} className="rounded-2xl overflow-hidden shadow-xl border border-border group relative aspect-[4/5] bg-muted">
               <img 
