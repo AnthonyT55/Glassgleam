@@ -1,19 +1,42 @@
+import { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBg from "@assets/generated_images/modern_home_with_sparkling_clean_windows.png";
+import heroBg1 from "@assets/generated_images/modern_home_with_sparkling_clean_windows.png";
+import heroBg2 from "@assets/IMG_5881_1773423832133.jpg";
+import heroBg3 from "@assets/IMG_5879_1773423838388.jpg";
 import { motion } from "framer-motion";
 
+const backgrounds = [heroBg1, heroBg2, heroBg3];
+
 export default function Hero() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBg} 
-          alt="Clean modern home" 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 backdrop-blur-[2px]" />
+      {/* Background Image Slideshow with Overlay */}
+      <div className="absolute inset-0 z-0 bg-black">
+        {backgrounds.map((bg, index) => (
+          <div
+            key={bg}
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+              index === currentImageIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <img 
+              src={bg} 
+              alt="Window cleaning showcase" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30 backdrop-blur-[2px]" />
       </div>
 
       <div className="container relative z-10 px-4 md:px-6 pt-20">
