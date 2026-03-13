@@ -1,19 +1,19 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBg from "@assets/IMG_5881_1773424053184.jpg";
+import heroBg from "@assets/generated_images/modern_home_with_sparkling_clean_windows.png";
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0 bg-black">
+      <div className="absolute inset-0 z-0">
         <img 
           src={heroBg} 
           alt="Clean modern home" 
-          className="w-full h-full object-cover opacity-70"
+          className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 backdrop-blur-[2px]" />
       </div>
 
       <div className="container relative z-10 px-4 md:px-6 pt-20">
@@ -34,7 +34,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-              Professional window cleaning for homes and businesses. We bring the sparkle back to your view with professional, streak-free service.
+              Premium window cleaning for homes and businesses. We bring the sparkle back to your view with professional, streak-free service.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -57,6 +57,7 @@ export default function Hero() {
                 View Our Services
               </Button>
             </div>
+
           </motion.div>
         </div>
       </div>
