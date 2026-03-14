@@ -44,7 +44,7 @@ export default function Hero() {
                 asChild
               >
                 <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
-                  Request a Free Quote
+                  Get Your Free Quote Today!
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </a>
               </Button>
