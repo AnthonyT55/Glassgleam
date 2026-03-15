@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 import { Sparkles, Sun, Shield, Home } from "lucide-react";
 import beforeAfter2 from "@assets/IMG_5880_1773424270710.jpg";
 import beforeAfter3 from "@assets/image_1773424277487.jpeg";
@@ -14,9 +15,9 @@ export default function Prelander() {
             Glass Gleam
           </div>
           <Button variant="outline" asChild>
-             <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+             <Link href="/landing">
               Get Quote
-            </a>
+            </Link>
           </Button>
         </div>
       </header>
@@ -60,9 +61,9 @@ export default function Prelander() {
           </div>
 
           <Button size="lg" className="text-xl h-16 px-12 font-bold shadow-xl hover:scale-105 transition-all w-full sm:w-auto" asChild>
-            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+            <Link href="/landing">
               Get Your Free Quote Today!
-            </a>
+            </Link>
           </Button>
         </div>
       </section>
@@ -171,9 +172,9 @@ export default function Prelander() {
           <div className="mt-16 text-center">
             <p className="text-2xl font-bold mb-8">Ready to see the world clearly again?</p>
             <Button size="lg" variant="secondary" className="text-xl h-16 px-12 font-bold shadow-2xl hover:scale-105 transition-all w-full sm:w-auto" asChild>
-              <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+              <Link href="/landing">
                 Get Your Free Quote Today!
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
