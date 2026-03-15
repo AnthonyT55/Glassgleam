@@ -10,8 +10,8 @@ import Prelander from "@/pages/Prelander";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/landing" component={Prelander} />
+      <Route path="/" component={Prelander} />
+      <Route path="/landing" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );
