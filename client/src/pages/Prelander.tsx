@@ -11,7 +11,6 @@ export default function Prelander() {
       <header className="py-6 px-4 border-b bg-background">
         <div className="container mx-auto flex justify-between items-center max-w-5xl">
           <div className="flex items-center gap-2 text-2xl font-heading font-bold text-primary">
-            <Sparkles className="w-6 h-6" />
             Glass Gleam
           </div>
           <Button variant="outline" asChild>
@@ -184,7 +183,6 @@ export default function Prelander() {
       <footer className="py-12 bg-background text-center">
         <div className="container px-4">
           <div className="flex items-center justify-center gap-2 text-xl font-heading font-bold text-primary mb-4">
-            <Sparkles className="w-5 h-5" />
             Glass Gleam
           </div>
           <p className="text-muted-foreground">© {new Date().getFullYear()} Glass Gleam Window Cleaning. Serving Danville, VA.</p>
