@@ -6,8 +6,13 @@ import BeforeAfter from "@/components/BeforeAfter";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Contact from "@/components/Contact";
 import { Sparkles } from "lucide-react";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
       <Navbar />
