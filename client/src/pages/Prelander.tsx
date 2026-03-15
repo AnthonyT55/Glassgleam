@@ -15,7 +15,7 @@ export default function Prelander() {
           </div>
           <Button variant="outline" asChild>
              <Link href="/landing">
-              Get Quote
+              Learn More
             </Link>
           </Button>
         </div>
@@ -28,10 +28,10 @@ export default function Prelander() {
             Professional Window Cleaning
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 tracking-tight">
-            Instantly Transform Your Property's Appearance
+            Your Windows Deserve Better
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            See the night-and-day difference professional window cleaning makes. Real results for homes and businesses in Danville.
+            Professional window cleaning that transforms your home or business, inside and out. Real results for homes and businesses in Danville.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -61,7 +61,7 @@ export default function Prelander() {
 
           <Button size="lg" className="text-xl h-16 px-12 font-bold shadow-xl hover:scale-105 transition-all w-full sm:w-auto" asChild>
             <Link href="/landing">
-              Get Your Free Quote Today!
+              Learn More
             </Link>
           </Button>
         </div>
@@ -72,10 +72,10 @@ export default function Prelander() {
         <div className="container px-4 mx-auto max-w-5xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-              Why Do You Need Your Windows Cleaned?
+              More Than Just Clean Glass
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Windows don't just get a little dusty—they accumulate damaging particles that ruin your view and your glass over time.
+              Most people don't realize how much dirty windows are quietly costing them, in curb appeal, natural light, and first impressions.
             </p>
           </div>
 
@@ -84,32 +84,32 @@ export default function Prelander() {
               <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-xl flex items-center justify-center mb-6">
                 <span className="font-bold text-xl">01</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Hard Water Stains</h3>
-              <p className="text-muted-foreground leading-relaxed">Over time, rain and sprinkler systems leave mineral deposits that embed into porous glass. If left untreated, they can permanently etch and ruin your windows.</p>
+              <h3 className="text-2xl font-bold mb-3">Curb Appeal That Sells</h3>
+              <p className="text-muted-foreground leading-relaxed">Clean windows are one of the fastest ways to improve how your home or business looks from the street. Instantly.</p>
             </div>
             
             <div className="bg-background border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-xl flex items-center justify-center mb-6">
                 <span className="font-bold text-xl">02</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Dirt & Grime Buildup</h3>
-              <p className="text-muted-foreground leading-relaxed">Dust, pollen, and pollutants cling to your glass, creating a hazy, dull film that makes your whole house look unkempt from the outside.</p>
+              <h3 className="text-2xl font-bold mb-3">More Natural Light</h3>
+              <p className="text-muted-foreground leading-relaxed">Dirt and grime block up to 40% of natural light. Cleaner windows mean brighter interiors and lower energy bills.</p>
             </div>
             
             <div className="bg-background border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-xl flex items-center justify-center mb-6">
                 <span className="font-bold text-xl">03</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Mold & Mildew</h3>
-              <p className="text-muted-foreground leading-relaxed">Window sills and tracks trap moisture, leading to mold growth. This is not only unsightly and unhealthy, but it degrades the window seal over time.</p>
+              <h3 className="text-2xl font-bold mb-3">First Impressions Matter</h3>
+              <p className="text-muted-foreground leading-relaxed">For businesses, your storefront glass is the first thing customers see. Dirty windows signal neglect before they ever walk in.</p>
             </div>
             
             <div className="bg-background border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-xl flex items-center justify-center mb-6">
                 <span className="font-bold text-xl">04</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Loss of Natural Light</h3>
-              <p className="text-muted-foreground leading-relaxed">Dirty windows block out up to 20% of sunlight. This makes your interior feel darker, more confined, and less inviting.</p>
+              <h3 className="text-2xl font-bold mb-3">Extends Window Life</h3>
+              <p className="text-muted-foreground leading-relaxed">Hard water, oxidation, and buildup permanently etch glass over time. Regular cleaning protects your investment.</p>
             </div>
           </div>
         </div>
@@ -125,10 +125,10 @@ export default function Prelander() {
         <div className="container px-4 mx-auto max-w-4xl relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-              Why It Matters
+              Why Smart Homeowners & Business Owners Are Going Professional
             </h2>
             <p className="text-xl text-primary-foreground/80">
-              Clean windows do more than just look nice. They elevate your entire living space.
+              DIY window cleaning looks fine, until you see what a professional clean actually looks like. Here's why more people in Danville and the Triad are making the switch.
             </p>
           </div>
           
@@ -138,8 +138,8 @@ export default function Prelander() {
                 <Home className="w-8 h-8" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Massively Boosts Curb Appeal</h3>
-                <p className="text-primary-foreground/80 text-lg leading-relaxed">Clean windows are one of the most cost-effective ways to make your property look well-maintained and welcoming. It instantly upgrades your home's exterior.</p>
+                <h3 className="text-2xl font-bold mb-2">74%</h3>
+                <p className="text-primary-foreground/80 text-lg leading-relaxed">Of homeowners who try DIY window cleaning report streaks, smears, or missed spots on the first attempt.</p>
               </div>
             </div>
             
@@ -150,8 +150,8 @@ export default function Prelander() {
                 <Sun className="w-8 h-8" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Enhances Interior Ambiance</h3>
-                <p className="text-primary-foreground/80 text-lg leading-relaxed">Maximizing natural light makes rooms feel larger, warmer, and more inviting. It has a proven positive impact on your mood and energy levels.</p>
+                <h3 className="text-2xl font-bold mb-2">40%</h3>
+                <p className="text-primary-foreground/80 text-lg leading-relaxed">More natural light enters a room after a professional deep clean versus a standard DIY wipe down.</p>
               </div>
             </div>
             
@@ -162,8 +162,8 @@ export default function Prelander() {
                 <Shield className="w-8 h-8" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Protects Your Investment</h3>
-                <p className="text-primary-foreground/80 text-lg leading-relaxed">Removing corrosive contaminants extends the lifespan of your glass, frames, and seals. You save money by avoiding expensive early replacements.</p>
+                <h3 className="text-2xl font-bold mb-2">2x</h3>
+                <p className="text-primary-foreground/80 text-lg leading-relaxed">Longer window lifespan when maintained with regular professional cleaning, hard water and oxidation permanently etch untreated glass.</p>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function Prelander() {
             <p className="text-2xl font-bold mb-8">Ready to see the world clearly again?</p>
             <Button size="lg" variant="secondary" className="text-xl h-16 px-12 font-bold shadow-2xl hover:scale-105 transition-all w-full sm:w-auto" asChild>
               <Link href="/landing">
-                Get Your Free Quote Today!
+                Learn More
               </Link>
             </Button>
           </div>
