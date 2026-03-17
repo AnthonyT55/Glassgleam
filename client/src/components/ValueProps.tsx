@@ -9,9 +9,6 @@ export default function ValueProps() {
       {/* Hero / Transformations Section */}
       <section className="py-16 md:py-24 bg-muted/30">
         <div className="container px-4 mx-auto text-center max-w-5xl">
-          <div className="inline-block bg-primary/10 text-primary font-medium px-4 py-1.5 rounded-full mb-6 text-sm">
-            Professional Window Cleaning
-          </div>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 tracking-tight">
             Your Windows Deserve Better
           </h2>
