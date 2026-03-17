@@ -1,35 +1,20 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "wouter";
 import { Sparkles, Sun, Shield, Home } from "lucide-react";
 import beforeAfter2 from "@assets/IMG_5880_1773424270710.jpg";
 import beforeAfter3 from "@assets/image_1773424277487.jpeg";
 
-export default function Prelander() {
+export default function ValueProps() {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary selection:text-primary-foreground">
-      {/* Header */}
-      <header className="py-6 px-4 border-b bg-background">
-        <div className="container mx-auto flex justify-between items-center max-w-5xl">
-          <div className="flex items-center gap-2 text-2xl font-heading font-bold text-primary">
-            Glass Gleam
-          </div>
-          <Button variant="outline" asChild>
-             <Link href="/landing">
-              Learn More
-            </Link>
-          </Button>
-        </div>
-      </header>
-
+    <>
       {/* Hero / Transformations Section */}
       <section className="py-16 md:py-24 bg-muted/30">
         <div className="container px-4 mx-auto text-center max-w-5xl">
           <div className="inline-block bg-primary/10 text-primary font-medium px-4 py-1.5 rounded-full mb-6 text-sm">
             Professional Window Cleaning
           </div>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 tracking-tight">
             Your Windows Deserve Better
-          </h1>
+          </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
             Professional window cleaning that transforms your home or business, inside and out. Real results for homes and businesses in Danville.
           </p>
@@ -60,9 +45,9 @@ export default function Prelander() {
           </div>
 
           <Button size="lg" className="text-xl h-16 px-12 font-bold shadow-xl hover:scale-105 transition-all w-full sm:w-auto" asChild>
-            <Link href="/landing">
-              Learn More
-            </Link>
+            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+              Get Your Free Quote Today!
+            </a>
           </Button>
         </div>
       </section>
@@ -171,23 +156,13 @@ export default function Prelander() {
           <div className="mt-16 text-center">
             <p className="text-2xl font-bold mb-8">Ready to see the world clearly again?</p>
             <Button size="lg" variant="secondary" className="text-xl h-16 px-12 font-bold shadow-2xl hover:scale-105 transition-all w-full sm:w-auto" asChild>
-              <Link href="/landing">
-                Learn More
-              </Link>
+              <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+                Get Your Free Quote Today!
+              </a>
             </Button>
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-12 bg-background text-center">
-        <div className="container px-4">
-          <div className="flex items-center justify-center gap-2 text-xl font-heading font-bold text-primary mb-4">
-            Glass Gleam
-          </div>
-          <p className="text-muted-foreground">© {new Date().getFullYear()} Glass Gleam Window Cleaning. Serving Danville, VA.</p>
-        </div>
-      </footer>
-    </div>
+    </>
   );
 }

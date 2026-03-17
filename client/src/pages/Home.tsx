@@ -2,10 +2,9 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
 import Services from "@/components/Services";
-import BeforeAfter from "@/components/BeforeAfter";
+import ValueProps from "@/components/ValueProps";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Contact from "@/components/Contact";
-import { Sparkles } from "lucide-react";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
         <Hero />
         <TrustBar />
         <Services />
-        <BeforeAfter />
+        <ValueProps />
         <WhyChooseUs />
         <Contact />
       </main>
