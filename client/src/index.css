@@ -66,33 +66,33 @@
 }
 
 .dark {
-  /* Dark mode - Deep Ocean Theme (optional if requested later, keeping mostly light for cleaning business) */
-  --background: 215 25% 15%;
-  --foreground: 210 50% 98%;
+  /* Sleek Dark Mode Theme */
+  --background: 222 47% 8%;
+  --foreground: 210 40% 98%;
   
-  --card: 215 25% 20%;
-  --card-foreground: 210 50% 98%;
+  --card: 222 47% 12%;
+  --card-foreground: 210 40% 98%;
   
-  --popover: 215 25% 20%;
-  --popover-foreground: 210 50% 98%;
+  --popover: 222 47% 12%;
+  --popover-foreground: 210 40% 98%;
   
   --primary: 200 90% 55%;
-  --primary-foreground: 0 0% 100%;
+  --primary-foreground: 222 47% 8%;
   
-  --secondary: 215 25% 25%;
-  --secondary-foreground: 210 50% 98%;
+  --secondary: 217 32% 17%;
+  --secondary-foreground: 210 40% 98%;
   
-  --muted: 215 25% 25%;
-  --muted-foreground: 215 20% 65%;
+  --muted: 217 32% 17%;
+  --muted-foreground: 215 20% 70%;
   
   --accent: 45 100% 55%;
-  --accent-foreground: 215 25% 27%;
+  --accent-foreground: 222 47% 8%;
   
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
+  --destructive-foreground: 210 40% 98%;
   
-  --border: 215 25% 25%;
-  --input: 215 25% 25%;
+  --border: 217 32% 17%;
+  --input: 217 32% 17%;
   --ring: 200 90% 55%;
 }
 

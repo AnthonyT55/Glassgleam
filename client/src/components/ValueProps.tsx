@@ -7,7 +7,7 @@ export default function ValueProps() {
   return (
     <>
       {/* Hero / Transformations Section */}
-      <section className="py-16 md:py-24 bg-muted/30">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="container px-4 mx-auto text-center max-w-5xl">
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 tracking-tight">
             Your Windows Deserve Better
@@ -23,7 +23,7 @@ export default function ValueProps() {
                 alt="Commercial window cleaning before and after" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-border/50 text-left">
+              <div className="absolute bottom-4 left-4 right-4 bg-background/95 p-4 rounded-xl shadow-lg border border-border/50 text-left">
                 <h3 className="font-bold text-lg">Commercial Storefront</h3>
                 <p className="text-sm text-muted-foreground">Heavy buildup removed, restoring crystal clarity.</p>
               </div>
@@ -34,7 +34,7 @@ export default function ValueProps() {
                 alt="Residential window cleaning before and after" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-border/50 text-left">
+              <div className="absolute bottom-4 left-4 right-4 bg-background/95 p-4 rounded-xl shadow-lg border border-border/50 text-left">
                 <h3 className="font-bold text-lg">Residential Home</h3>
                 <p className="text-sm text-muted-foreground">Years of dirt washed away for a perfect view.</p>
               </div>
@@ -114,7 +114,7 @@ export default function ValueProps() {
             </p>
           </div>
           
-          <div className="space-y-8 bg-black/10 backdrop-blur-sm p-8 md:p-12 rounded-3xl border border-white/10">
+          <div className="space-y-8 bg-black/40 p-8 md:p-12 rounded-3xl border border-white/10">
             <div className="flex flex-col sm:flex-row gap-6 items-start">
               <div className="bg-white/20 p-4 rounded-2xl shrink-0">
                 <Home className="w-8 h-8" />

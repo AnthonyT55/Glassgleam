@@ -21,7 +21,7 @@ export default function TrustBar() {
   ];
 
   return (
-    <section className="py-12 bg-card/50 backdrop-blur-sm border-y border-white/10">
+    <section className="py-12 bg-card/50 backdrop-blur-sm border-y border-border/50">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {trustItems.map((item, index) => {

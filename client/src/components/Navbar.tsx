@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-4" : "bg-transparent py-6"
+        isScrolled ? "bg-background/90 backdrop-blur-md shadow-sm py-4" : "bg-transparent py-6"
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
@@ -46,7 +46,7 @@ export default function Navbar() {
             Services
           </a>
           <Button 
-            className={`${isScrolled ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"}`}
+            className={`${isScrolled ? "bg-primary text-primary-foreground" : "bg-white text-primary hover:bg-white/90"}`}
             asChild
           >
             <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">Quote</a>

@@ -46,7 +46,7 @@ export default function Contact() {
           </div>
 
           {/* QR Code Call to Action */}
-          <div className="bg-card rounded-3xl p-8 shadow-xl border border-white/50 relative overflow-hidden group max-w-sm mx-auto">
+          <div className="bg-card rounded-3xl p-8 shadow-xl border border-border/50 relative overflow-hidden group max-w-sm mx-auto">
             {/* Decorative background for the QR card */}
             <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors" />
             

@@ -40,7 +40,7 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-none shadow-md bg-card/50 backdrop-blur-sm overflow-hidden relative">
+            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border/50 shadow-md bg-card overflow-hidden relative">
               <div className="absolute top-0 left-0 w-1 h-full bg-primary scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-300" />
               
               <CardHeader>
