@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Sarah Jenkins",
     role: "Homeowner in Danville",
-    content: "I didn't realize how dirty my windows were until Glass Gleam finished. The difference is night and day! Professional, polite, and efficient.",
+    content: "I didn't realize how dirty my exterior was until Glass Gleam finished. The difference is night and day! Professional, polite, and efficient.",
     rating: 5
   },
   {

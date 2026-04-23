@@ -10,10 +10,10 @@ export default function ValueProps() {
       <section className="py-16 md:py-24 bg-muted/20">
         <div className="container px-4 mx-auto text-center max-w-5xl">
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold mb-6 tracking-tight">
-            Your Windows Deserve Better
+            Your Exterior Deserves Better
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Professional window cleaning that transforms your home or business, inside and out. Real results for homes and businesses in Danville.
+            Professional exterior restoration that transforms your property. From cloudy windows to grimy driveways, we deliver real results. Partner with Glass Gleam to revitalize your property today.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -54,10 +54,10 @@ export default function ValueProps() {
         <div className="container px-4 mx-auto max-w-5xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-              More Than Just Clean Glass
+              More Than Just A Quick Wash
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Most people don't realize how much dirty windows are quietly costing them, in curb appeal, natural light, and first impressions.
+              Most people don't realize how much dirt, algae, and grime are quietly degrading their property's value and curb appeal over time. Partner with us to solve the problem before it's permanent.
             </p>
           </div>
 
@@ -67,15 +67,15 @@ export default function ValueProps() {
                 <span className="font-bold text-xl">01</span>
               </div>
               <h3 className="text-2xl font-bold mb-3">Curb Appeal That Sells</h3>
-              <p className="text-muted-foreground leading-relaxed">Clean windows are one of the fastest ways to improve how your home or business looks from the street. Instantly.</p>
+              <p className="text-muted-foreground leading-relaxed">Clean windows and freshly washed driveways are the fastest ways to improve how your home looks from the street. Instantly.</p>
             </div>
             
             <div className="bg-background border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-xl flex items-center justify-center mb-6">
                 <span className="font-bold text-xl">02</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">More Natural Light</h3>
-              <p className="text-muted-foreground leading-relaxed">Dirt and grime block up to 40% of natural light. Cleaner windows mean brighter interiors and lower energy bills.</p>
+              <h3 className="text-2xl font-bold mb-3">Prevent Costly Damage</h3>
+              <p className="text-muted-foreground leading-relaxed">Dirt, algae, and hard water can permanently etch glass and erode concrete or siding. Regular cleaning protects your biggest investment.</p>
             </div>
             
             <div className="bg-background border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
@@ -83,15 +83,15 @@ export default function ValueProps() {
                 <span className="font-bold text-xl">03</span>
               </div>
               <h3 className="text-2xl font-bold mb-3">First Impressions Matter</h3>
-              <p className="text-muted-foreground leading-relaxed">For businesses, your storefront glass is the first thing customers see. Dirty windows signal neglect before they ever walk in.</p>
+              <p className="text-muted-foreground leading-relaxed">For businesses, your exterior is the first thing customers see. A spotless storefront and clean walkways signal professionalism before they ever walk in.</p>
             </div>
             
             <div className="bg-background border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-xl flex items-center justify-center mb-6">
                 <span className="font-bold text-xl">04</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Extends Window Life</h3>
-              <p className="text-muted-foreground leading-relaxed">Hard water, oxidation, and buildup permanently etch glass over time. Regular cleaning protects your investment.</p>
+              <h3 className="text-2xl font-bold mb-3">Healthier Environment</h3>
+              <p className="text-muted-foreground leading-relaxed">We eliminate slippery algae on walkways and mold/mildew around your home, creating a safer, healthier space for your family or customers.</p>
             </div>
           </div>
         </div>
@@ -107,10 +107,10 @@ export default function ValueProps() {
         <div className="container px-4 mx-auto max-w-4xl relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-              Why Smart Homeowners & Business Owners Are Going Professional
+              Why Smart Property Owners Go Professional
             </h2>
             <p className="text-xl text-primary-foreground/80">
-              DIY window cleaning looks fine, until you see what a professional clean actually looks like. Here's why more people in Danville and the Triad are making the switch.
+              DIY cleaning looks fine, until you see what a professional restoration actually looks like. Glass Gleam brings the expertise and equipment needed for a perfect finish.
             </p>
           </div>
           

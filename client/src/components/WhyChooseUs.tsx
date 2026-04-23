@@ -13,11 +13,11 @@ export default function WhyChooseUs() {
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-foreground">
-            The Last Window Cleaner You'll Ever Need to Call
+            The Last Exterior Restoration Team You'll Ever Need
           </h2>
           
           <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
-            We're not just here for a one-time clean. We show up on time, treat your property with respect, and leave every pane streak-free, or we come back and fix it. No hassle, no excuses.
+            We're not just here for a one-time clean. We show up on time, treat your property with respect, and leave every surface spotless, or we come back and fix it. Partner with us for a hassle-free experience.
           </p>
 
           <div className="space-y-4">

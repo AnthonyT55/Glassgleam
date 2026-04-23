@@ -26,18 +26,13 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-medium mb-6">
-              <span className="flex h-2 w-2 rounded-full bg-accent animate-pulse"></span>
-              Serving Danville & Surrounding Areas
-            </div>
-            
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight mb-6">
-              See the World <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-accent">Clearly Again</span>
+              Complete Exterior <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-accent">Restoration</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-              Premium window cleaning for homes and businesses. We bring the sparkle back to your view with professional, streak-free service.
+              Instantly boost your property's curb appeal with premium pressure washing and window cleaning. We remove years of dirt, grime, and buildup so your home or business looks brand new.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
