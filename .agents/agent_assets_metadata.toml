@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "WFpSCu3IArG-AieU2YAax"
+uri = "file://client/src/assets/hero-before-after.png"
+type = "image"
+title = "Before and after pressure washing house"
