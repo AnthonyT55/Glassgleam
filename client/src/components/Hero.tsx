@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative w-full aspect-square max-h-[75vh] md:max-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Video with Overlay */}
       <div className="absolute inset-0 z-0">
         <video 
@@ -27,33 +27,20 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight mb-6">
-              Professional Exterior <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-accent">Restoration</span>
+              Restore your property's <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-accent">value and curb appeal</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-              We don't just wash away dirt—we restore your property's value and curb appeal. Partner with Greensboro's most reliable pressure washing and window cleaning experts for a hassle-free experience and guaranteed results.
+              Partner with us and watch your property transform
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base h-12 px-8"
-                asChild
-              >
-                <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
-                  Get Your Free Quote Today!
-                  <ArrowRight className="ml-2 w-4 h-4" />
-                </a>
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="bg-white/10 text-white border-white/20 hover:bg-white/20 backdrop-blur-sm text-base h-12"
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                View Our Services
-              </Button>
+            <div className="flex flex-wrap items-center gap-3 text-white/90 text-sm md:text-base font-medium uppercase tracking-wider">
+              <span>Seasonal Plans</span>
+              <span className="text-accent">•</span>
+              <span>Same Week Guarantee</span>
+              <span className="text-accent">•</span>
+              <span>Transparent Pricing</span>
             </div>
 
           </motion.div>

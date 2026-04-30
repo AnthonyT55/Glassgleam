@@ -66,19 +66,6 @@ export default function Contact() {
           </div>
           
         </div>
-
-        {/* Final CTA Button */}
-        <div className="mt-16 text-center">
-          <Button 
-            size="lg" 
-            className="bg-accent text-accent-foreground hover:bg-accent/90 text-xl h-16 px-12 font-bold shadow-lg hover:scale-105 transition-all"
-            asChild
-          >
-            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
-              Get Your Free Quote Today!
-            </a>
-          </Button>
-        </div>
       </div>
     </section>
   );

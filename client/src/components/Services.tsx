@@ -40,12 +40,7 @@ export default function Services() {
               <div className="absolute top-0 left-0 w-1 h-full bg-primary scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-300 z-10" />
               
               <CardHeader>
-                <div className="flex items-center gap-4 mb-2">
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
-                    <service.icon size={24} />
-                  </div>
-                  <CardTitle className="text-2xl font-bold">{service.title}</CardTitle>
-                </div>
+                <CardTitle className="text-2xl font-bold mb-2">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
                 <CardDescription className="text-base text-foreground/80 leading-relaxed">
