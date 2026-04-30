@@ -21,19 +21,6 @@ export default function WhyItMatters() {
         <div className="space-y-8 bg-black/40 p-8 md:p-12 rounded-3xl border border-white/10">
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             <div className="bg-white/20 p-4 rounded-2xl shrink-0 text-center min-w-[100px] flex flex-col items-center justify-center">
-              <AlertTriangle className="w-8 h-8 mb-2" />
-              <span className="font-bold text-xl">0</span>
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold mb-2">Zero Damage Guarantee</h3>
-              <p className="text-primary-foreground/80 text-lg leading-relaxed">Consumer pressure washers can output up to 4,000 PSI, which easily strips paint, gouges wood, and blows window seals. We use calibrated soft-washing for delicate surfaces to ensure a 100% damage-free clean.</p>
-            </div>
-          </div>
-          
-          <div className="w-full h-px bg-white/10 my-4" />
-          
-          <div className="flex flex-col sm:flex-row gap-6 items-start">
-            <div className="bg-white/20 p-4 rounded-2xl shrink-0 text-center min-w-[100px] flex flex-col items-center justify-center">
               <Droplets className="w-8 h-8 mb-2" />
               <span className="font-bold text-xl">4x</span>
             </div>
