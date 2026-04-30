@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div className="relative w-full aspect-square max-h-[75vh] md:max-h-[80vh] flex items-center justify-center overflow-hidden">
+    <div className="relative w-full min-h-[550px] aspect-square max-h-[75vh] md:max-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Video with Overlay */}
       <div className="absolute inset-0 z-0">
         <video 
@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40 backdrop-blur-[2px]" />
       </div>
 
-      <div className="container relative z-10 px-4 md:px-6 pt-20">
+      <div className="container relative z-10 px-4 md:px-6 pt-20 pb-20">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

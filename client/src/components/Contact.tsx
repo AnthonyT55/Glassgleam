@@ -17,16 +17,16 @@ export default function Contact() {
 
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-xl border border-border/50 flex flex-col md:flex-row items-center justify-between gap-8">
           
-          <div className="space-y-8 flex-1">
+          <div className="space-y-8 flex-1 min-w-0">
             <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-4 rounded-xl text-primary">
-                <Mail size={28} />
+              <div className="bg-primary/10 p-3 md:p-4 rounded-xl text-primary shrink-0">
+                <Mail className="w-6 h-6 md:w-7 md:h-7" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <h3 className="font-bold text-xl mb-1">Email Us</h3>
                 <a 
                   href="mailto:contact@glassgleamwindows.com" 
-                  className="text-muted-foreground hover:text-primary transition-colors text-lg"
+                  className="text-muted-foreground hover:text-primary transition-colors text-base md:text-lg break-all sm:break-normal"
                 >
                   contact@glassgleamwindows.com
                 </a>
@@ -34,12 +34,12 @@ export default function Contact() {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-4 rounded-xl text-primary">
-                <MapPin size={28} />
+              <div className="bg-primary/10 p-3 md:p-4 rounded-xl text-primary shrink-0">
+                <MapPin className="w-6 h-6 md:w-7 md:h-7" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <h3 className="font-bold text-xl mb-1">Service Area</h3>
-                <p className="text-muted-foreground text-lg">Greensboro, NC & surrounding areas</p>
+                <p className="text-muted-foreground text-base md:text-lg">Greensboro, NC & surrounding areas</p>
               </div>
             </div>
           </div>
