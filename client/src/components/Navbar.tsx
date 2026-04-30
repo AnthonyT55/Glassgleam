@@ -64,7 +64,7 @@ export default function Navbar() {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-4 flex flex-col gap-4 animate-in slide-in-from-top-5">
+        <div className="md:hidden absolute top-full left-0 w-full bg-background shadow-lg py-4 px-4 flex flex-col gap-4 animate-in slide-in-from-top-5">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -75,7 +75,11 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <Button className="w-full">Get a Quote</Button>
+          <Button className="w-full" asChild>
+            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
+              Get Your Free Quote
+            </a>
+          </Button>
         </div>
       )}
     </nav>
