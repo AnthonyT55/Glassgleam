@@ -1,8 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import TrustBar from "@/components/TrustBar";
+import WhyNeedCleaning from "@/components/WhyNeedCleaning";
+import Transformations from "@/components/Transformations";
 import Services from "@/components/Services";
-import ValueProps from "@/components/ValueProps";
+import WhyItMatters from "@/components/WhyItMatters";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
@@ -17,9 +18,10 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <TrustBar />
+        <WhyNeedCleaning />
+        <Transformations />
         <Services />
-        <ValueProps />
+        <WhyItMatters />
         <WhyChooseUs />
         <Contact />
       </main>

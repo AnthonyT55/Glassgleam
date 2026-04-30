@@ -27,12 +27,12 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight mb-6">
-              Complete Exterior <br />
+              Professional Exterior <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-accent">Restoration</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-              Instantly boost your property's curb appeal with premium pressure washing and window cleaning. We remove years of dirt, grime, and buildup so your home or business looks brand new.
+              We don't just wash away dirt—we restore your property's value and curb appeal. Partner with Danville's most reliable pressure washing and window cleaning experts for a hassle-free experience and guaranteed results.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
