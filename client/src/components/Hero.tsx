@@ -31,19 +31,26 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-accent">value and curb appeal</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
+            <p className="text-lg md:text-xl text-white/90 max-w-xl leading-relaxed">
               Partner with us and watch your property transform
             </p>
+          </motion.div>
+        </div>
+      </div>
 
-            <div className="flex flex-wrap items-center gap-3 text-white/90 text-sm md:text-base font-medium uppercase tracking-wider">
+      {/* Scrolling Marquee */}
+      <div className="absolute bottom-0 left-0 w-full bg-background/95 backdrop-blur-md border-t border-border/50 py-3 overflow-hidden z-20">
+        <div className="flex w-max animate-marquee">
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="flex items-center gap-8 px-8 text-foreground/80 text-sm md:text-base font-bold uppercase tracking-widest whitespace-nowrap">
               <span>Seasonal Plans</span>
               <span className="text-accent">•</span>
               <span>Same Week Guarantee</span>
               <span className="text-accent">•</span>
               <span>Transparent Pricing</span>
+              <span className="text-accent">•</span>
             </div>
-
-          </motion.div>
+          ))}
         </div>
       </div>
     </div>
