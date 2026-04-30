@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [
   {
     name: "Sarah Jenkins",
-    role: "Homeowner in Danville",
+    role: "Homeowner in Greensboro",
     content: "I didn't realize how dirty my exterior was until Glass Gleam finished. The difference is night and day! Professional, polite, and efficient.",
     rating: 5
   },
@@ -32,7 +32,7 @@ export default function Testimonials() {
               What Our Neighbors Say
             </h2>
             <p className="text-white/80 text-lg">
-              We take pride in every streak-free shine. Here's what the Danville community has to say about our work.
+              We take pride in every streak-free shine. Here's what the Greensboro community has to say about our work.
             </p>
           </div>
           <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">

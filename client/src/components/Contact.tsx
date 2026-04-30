@@ -5,75 +5,70 @@ import qrCode from "@assets/ggqrcode_1767738636450.png";
 export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-secondary/30">
-      <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+      <div className="container px-4 md:px-6 max-w-4xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
+            Contact Us
+          </h2>
+          <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl mx-auto">
+            We serve Greensboro, NC and the surrounding communities with pride. Scan our digital business card to save our contact info instantly.
+          </p>
+        </div>
+
+        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-xl border border-border/50 flex flex-col md:flex-row items-center justify-between gap-8">
           
-          {/* Contact Info */}
-          <div>
-            <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
-              Ready for a Brighter View?
-            </h2>
-            <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
-              We serve Danville, VA and the surrounding communities with pride. Scan my digital business card to save my contact info instantly.
-            </p>
-
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg text-primary">
-                  <Mail size={24} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Email Us</h3>
-                  <a 
-                    href="mailto:contact@glassgleamwindows.com" 
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    contact@glassgleamwindows.com
-                  </a>
-                </div>
+          <div className="space-y-8 flex-1">
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-4 rounded-xl text-primary">
+                <Mail size={28} />
               </div>
+              <div>
+                <h3 className="font-bold text-xl mb-1">Email Us</h3>
+                <a 
+                  href="mailto:contact@glassgleamwindows.com" 
+                  className="text-muted-foreground hover:text-primary transition-colors text-lg"
+                >
+                  contact@glassgleamwindows.com
+                </a>
+              </div>
+            </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg text-primary">
-                  <MapPin size={24} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Service Area</h3>
-                  <p className="text-muted-foreground">Danville, VA & surrounding areas</p>
-                </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-4 rounded-xl text-primary">
+                <MapPin size={28} />
+              </div>
+              <div>
+                <h3 className="font-bold text-xl mb-1">Service Area</h3>
+                <p className="text-muted-foreground text-lg">Greensboro, NC & surrounding areas</p>
               </div>
             </div>
           </div>
 
-          {/* QR Code Call to Action */}
-          <div className="bg-card rounded-3xl p-8 shadow-xl border border-border/50 relative overflow-hidden group max-w-sm mx-auto">
-            {/* Decorative background for the QR card */}
-            <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors" />
+          {/* QR Code */}
+          <div className="shrink-0 bg-background rounded-2xl p-6 shadow-md border border-border/50 flex flex-col items-center text-center w-full max-w-[240px]">
+            <div className="bg-white p-3 rounded-xl shadow-inner mb-4 ring-1 ring-border">
+              <img 
+                src={qrCode} 
+                alt="Glass Gleam Digital Business Card" 
+                className="w-24 h-24 object-contain"
+              />
+            </div>
             
-            <div className="relative z-10 flex flex-col items-center text-center">
-              <div className="bg-white p-3 rounded-xl shadow-inner mb-4 ring-1 ring-border">
-                <img 
-                  src={qrCode} 
-                  alt="Glass Gleam Digital Business Card" 
-                  className="w-32 h-32 md:w-40 md:h-40 object-contain"
-                />
-              </div>
-              
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-3">
-                <Share2 size={12} />
-                DIGITAL BUSINESS CARD
-              </div>
-              
-              <h3 className="text-xl font-bold mb-2">Scan to Connect</h3>
-              <p className="text-muted-foreground text-sm">
-                Scan to save our contact details instantly.
-              </p>
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-3">
+              <Share2 size={12} />
+              DIGITAL CARD
             </div>
+            
+            <h3 className="text-lg font-bold mb-1">Scan to Connect</h3>
+            <p className="text-muted-foreground text-xs">
+              Save our contact details instantly.
+            </p>
           </div>
+          
         </div>
 
         {/* Final CTA Button */}
-        <div className="mt-20 text-center">
+        <div className="mt-16 text-center">
           <Button 
             size="lg" 
             className="bg-accent text-accent-foreground hover:bg-accent/90 text-xl h-16 px-12 font-bold shadow-lg hover:scale-105 transition-all"

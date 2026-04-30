@@ -3,7 +3,6 @@ import {
   Sparkles
 } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import pwImage from "@assets/Untitled_design_1776976059608.png";
 
 const services = [
   {
@@ -15,7 +14,6 @@ const services = [
     icon: Droplets,
     title: "Pressure Washing",
     description: "Restore your driveways, walkways, siding, and patios. We safely blast away years of embedded dirt, algae, and mildew to instantly renew your property's exterior. See the difference a deep clean can make.",
-    image: pwImage
   }
 ];
 
@@ -38,16 +36,10 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border/50 shadow-md bg-card overflow-hidden relative flex flex-col">
+            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border/50 shadow-md bg-card overflow-hidden relative flex flex-col pt-4">
               <div className="absolute top-0 left-0 w-1 h-full bg-primary scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-300 z-10" />
               
-              {service.image && (
-                <div className="w-full h-56 overflow-hidden border-b border-border/50">
-                  <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                </div>
-              )}
-              
-              <CardHeader className={service.image ? "pt-6" : ""}>
+              <CardHeader>
                 <div className="flex items-center gap-4 mb-2">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                     <service.icon size={24} />

@@ -32,7 +32,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed">
-              We don't just wash away dirt—we restore your property's value and curb appeal. Partner with Danville's most reliable pressure washing and window cleaning experts for a hassle-free experience and guaranteed results.
+              We don't just wash away dirt—we restore your property's value and curb appeal. Partner with Greensboro's most reliable pressure washing and window cleaning experts for a hassle-free experience and guaranteed results.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
