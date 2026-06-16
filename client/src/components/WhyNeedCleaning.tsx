@@ -12,7 +12,7 @@ export default function WhyNeedCleaning() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-xl flex items-center justify-center mb-6">
               <span className="font-bold text-xl">01</span>
             </div>
@@ -20,7 +20,7 @@ export default function WhyNeedCleaning() {
             <p className="text-muted-foreground leading-relaxed">Clean windows and freshly washed driveways are the fastest ways to improve how your home looks from the street. Instantly.</p>
           </div>
           
-          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-xl flex items-center justify-center mb-6">
               <span className="font-bold text-xl">02</span>
             </div>
@@ -28,7 +28,7 @@ export default function WhyNeedCleaning() {
             <p className="text-muted-foreground leading-relaxed">Dirt, algae, and hard water can permanently etch glass and erode concrete or siding. Regular cleaning protects your biggest investment.</p>
           </div>
           
-          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-xl flex items-center justify-center mb-6">
               <span className="font-bold text-xl">03</span>
             </div>
@@ -36,7 +36,7 @@ export default function WhyNeedCleaning() {
             <p className="text-muted-foreground leading-relaxed">For businesses, your exterior is the first thing customers see. A spotless storefront and clean walkways signal professionalism before they ever walk in.</p>
           </div>
           
-          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-xl flex items-center justify-center mb-6">
               <span className="font-bold text-xl">04</span>
             </div>

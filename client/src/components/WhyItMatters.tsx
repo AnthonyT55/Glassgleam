@@ -18,44 +18,43 @@ export default function WhyItMatters() {
           </p>
         </div>
         
-        <div className="space-y-8 bg-black/40 p-8 md:p-12 rounded-3xl border border-white/10">
-          <div className="flex flex-col sm:flex-row gap-6 items-start">
-            <div className="bg-white/20 p-4 rounded-2xl shrink-0 text-center min-w-[100px] flex flex-col items-center justify-center">
+        <div className="space-y-8 bg-black/40 p-8 md:p-12 rounded-3xl border border-white/10 text-center">
+          <div className="flex flex-col gap-4 items-center">
+            <div className="bg-white/20 p-4 rounded-2xl shrink-0 min-w-[100px] flex flex-col items-center justify-center">
               <Droplets className="w-8 h-8 mb-2" />
               <span className="font-bold text-xl">4x</span>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-2">Longer Lasting Clean</h3>
-              <p className="text-primary-foreground/80 text-lg leading-relaxed">DIY pressure washing only blasts off the top layer of algae, meaning it grows back rapidly. Our professional-grade algaecides kill growth at the root, keeping your home cleaner up to 4 times longer.</p>
+              <p className="text-primary-foreground/80 text-lg leading-relaxed max-w-2xl mx-auto">DIY pressure washing only blasts off the top layer of algae, meaning it grows back rapidly. Our professional-grade algaecides kill growth at the root, keeping your home cleaner up to 4 times longer.</p>
             </div>
           </div>
           
           <div className="w-full h-px bg-white/10 my-4" />
 
-          <div className="flex flex-col sm:flex-row gap-6 items-start">
-            <div className="bg-white/20 p-4 rounded-2xl shrink-0 text-center min-w-[100px] flex flex-col items-center justify-center">
+          <div className="flex flex-col gap-4 items-center">
+            <div className="bg-white/20 p-4 rounded-2xl shrink-0 min-w-[100px] flex flex-col items-center justify-center">
               <Home className="w-8 h-8 mb-2" />
               <span className="font-bold text-xl">40%</span>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-2">More Natural Light</h3>
-              <p className="text-primary-foreground/80 text-lg leading-relaxed">DIY window cleaning often leaves behind microscopic streaks and smears that diffuse sunlight. Professional pure-water cleaning allows up to 40% more natural light into your home.</p>
+              <p className="text-primary-foreground/80 text-lg leading-relaxed max-w-2xl mx-auto">DIY window cleaning often leaves behind microscopic streaks and smears that diffuse sunlight. Professional pure-water cleaning allows up to 40% more natural light into your home.</p>
             </div>
           </div>
           
           <div className="w-full h-px bg-white/10 my-4" />
           
-          <div className="flex flex-col sm:flex-row gap-6 items-start">
-            <div className="bg-white/20 p-4 rounded-2xl shrink-0 text-center min-w-[100px] flex flex-col items-center justify-center">
+          <div className="flex flex-col gap-4 items-center">
+            <div className="bg-white/20 p-4 rounded-2xl shrink-0 min-w-[100px] flex flex-col items-center justify-center">
               <Shield className="w-8 h-8 mb-2" />
               <span className="font-bold text-xl">2x</span>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-2">Longer Window Lifespan</h3>
-              <p className="text-primary-foreground/80 text-lg leading-relaxed">Regular professional cleaning prevents permanent hard water etching on glass and stops mold from deteriorating your siding and concrete surfaces, doubling their effective lifespan.</p>
+              <p className="text-primary-foreground/80 text-lg leading-relaxed max-w-2xl mx-auto">Regular professional cleaning prevents permanent hard water etching on glass and stops mold from deteriorating your siding and concrete surfaces, doubling their effective lifespan.</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>

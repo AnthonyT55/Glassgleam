@@ -14,41 +14,41 @@ export default function Transformations() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <div className="rounded-2xl overflow-hidden shadow-xl border border-border group bg-card">
-            <div className="aspect-[4/5] relative overflow-hidden">
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-border group bg-card flex flex-col items-center text-center">
+            <div className="aspect-[4/5] relative overflow-hidden w-full">
               <img 
                 src={beforeAfter2} 
                 alt="Commercial window cleaning before and after" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
-            <div className="p-6 text-left border-t border-border/50">
+            <div className="p-6 border-t border-border/50 w-full">
               <h3 className="font-bold text-lg mb-1">Commercial Storefront</h3>
               <p className="text-sm text-muted-foreground">Heavy buildup removed, restoring crystal clarity.</p>
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl border border-border group bg-card">
-            <div className="aspect-[4/5] relative overflow-hidden">
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-border group bg-card flex flex-col items-center text-center">
+            <div className="aspect-[4/5] relative overflow-hidden w-full">
               <img 
                 src={beforeAfter3} 
                 alt="Residential window cleaning before and after" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
-            <div className="p-6 text-left border-t border-border/50">
+            <div className="p-6 border-t border-border/50 w-full">
               <h3 className="font-bold text-lg mb-1">Residential Home</h3>
               <p className="text-sm text-muted-foreground">Years of dirt washed away for a perfect view.</p>
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl border border-border group bg-card">
-            <div className="aspect-[4/5] relative overflow-hidden">
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-border group bg-card flex flex-col items-center text-center">
+            <div className="aspect-[4/5] relative overflow-hidden w-full">
               <img 
                 src={drivewayImg} 
                 alt="Driveway pressure washing" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
-            <div className="p-6 text-left border-t border-border/50">
+            <div className="p-6 border-t border-border/50 w-full">
               <h3 className="font-bold text-lg mb-1">Concrete Renewal</h3>
               <p className="text-sm text-muted-foreground">Deep pressure washing removes embedded grime and algae.</p>
             </div>

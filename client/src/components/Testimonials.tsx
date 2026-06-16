@@ -26,7 +26,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-24 bg-primary text-primary-foreground">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
+        <div className="flex flex-col items-center justify-center text-center mb-12 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-white">
               What Our Neighbors Say
@@ -35,7 +35,7 @@ export default function Testimonials() {
               We take pride in every streak-free shine. Here's what the Greensboro community has to say about our work.
             </p>
           </div>
-          <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+          <div className="flex items-center justify-center gap-2 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
             <div className="flex gap-1 text-accent">
               {[1, 2, 3, 4, 5].map((star) => (
                 <Star key={star} fill="currentColor" size={20} />
@@ -47,18 +47,18 @@ export default function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="bg-white/5 border-white/10 text-white hover:bg-white/10 transition-colors">
-              <CardContent className="pt-6">
-                <div className="flex gap-1 mb-4 text-accent">
+            <Card key={index} className="bg-white/5 border-white/10 text-white hover:bg-white/10 transition-colors flex flex-col items-center text-center">
+              <CardContent className="pt-8 pb-8 flex flex-col items-center">
+                <div className="flex gap-1 mb-6 text-accent justify-center">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star key={i} fill="currentColor" size={16} />
                   ))}
                 </div>
-                <blockquote className="text-lg italic mb-6 leading-relaxed">
+                <blockquote className="text-lg italic mb-8 leading-relaxed grow">
                   "{testimonial.content}"
                 </blockquote>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-bold text-accent border border-accent/50">
+                <div className="flex flex-col items-center gap-3 mt-auto">
+                  <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center font-bold text-accent border border-accent/50 text-lg">
                     {testimonial.name[0]}
                   </div>
                   <div>

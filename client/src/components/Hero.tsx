@@ -20,11 +20,12 @@ export default function Hero() {
       </div>
 
       <div className="container relative z-10 px-4 md:px-6 pt-20 pb-20">
-        <div className="max-w-3xl">
+        <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            className="flex flex-col items-center"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight mb-6">
               Restore your property's <br />

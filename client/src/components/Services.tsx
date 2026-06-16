@@ -36,14 +36,14 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border/50 shadow-md bg-card overflow-hidden relative flex flex-col pt-4">
-              <div className="absolute top-0 left-0 w-1 h-full bg-primary scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-300 z-10" />
+            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border/50 shadow-md bg-card overflow-hidden relative flex flex-col pt-4 items-center text-center">
+              <div className="absolute top-0 left-0 w-full h-1 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300 z-10" />
               
-              <CardHeader>
+              <CardHeader className="flex flex-col items-center">
                 <CardTitle className="text-2xl font-bold mb-2">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <CardDescription className="text-base text-foreground/80 leading-relaxed">
+                <CardDescription className="text-base text-foreground/80 leading-relaxed max-w-sm mx-auto">
                   {service.description}
                 </CardDescription>
               </CardContent>
