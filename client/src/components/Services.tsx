@@ -19,13 +19,13 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-background relative overflow-hidden">
+    <section id="services" className="py-24 bg-background relative overflow-hidden flex flex-col items-center justify-center w-full">
       {/* Decorative background elements */}
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
 
-      <div className="container px-4 md:px-6 relative z-10">
-        <div className="text-center max-w-2xl mx-auto mb-16">
+      <div className="container px-4 md:px-6 relative z-10 w-full flex flex-col items-center justify-center">
+        <div className="text-center max-w-2xl w-full mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-foreground">
             Our Professional Services
           </h2>

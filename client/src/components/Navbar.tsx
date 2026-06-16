@@ -26,13 +26,11 @@ export default function Navbar() {
         isScrolled ? "bg-background/90 backdrop-blur-md shadow-sm py-4" : "bg-transparent py-6"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <Link href="/">
-          <a className="flex items-center gap-2 group cursor-pointer">
-            <span className={`font-heading font-bold text-2xl ${isScrolled ? "text-foreground" : "text-white"}`}>
-              Glass Gleam
-            </span>
-          </a>
+      <div className="container px-4 md:px-6 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-2 group cursor-pointer">
+          <span className={`font-heading font-bold text-2xl ${isScrolled ? "text-foreground" : "text-white"}`}>
+            Glass Gleam
+          </span>
         </Link>
 
         {/* Desktop Nav */}

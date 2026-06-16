@@ -10,9 +10,9 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-24 bg-secondary/30">
-      <div className="container px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center">
+    <section className="py-24 bg-secondary/30 flex flex-col items-center justify-center w-full">
+      <div className="container px-4 md:px-6 w-full flex flex-col items-center justify-center">
+        <div className="max-w-3xl w-full text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-foreground">
             The Last Exterior Restoration Team You'll Ever Need
           </h2>

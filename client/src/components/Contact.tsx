@@ -4,9 +4,9 @@ import qrCode from "@assets/ggqrcode_1767738636450.png";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-secondary/30">
-      <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-        <div className="text-center mb-12">
+    <section id="contact" className="py-24 bg-secondary/30 flex flex-col items-center justify-center w-full">
+      <div className="container px-4 md:px-6 max-w-4xl w-full flex flex-col items-center justify-center">
+        <div className="text-center w-full mb-12">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
             Contact Us
           </h2>

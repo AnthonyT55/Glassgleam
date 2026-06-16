@@ -8,7 +8,7 @@ export default function WhyItMatters() {
         <Sparkles className="w-96 h-96" />
       </div>
       
-      <div className="container px-4 mx-auto max-w-4xl relative z-10">
+      <div className="container mx-auto px-4 max-w-4xl relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
             Why Smart Property Owners Work With Us
