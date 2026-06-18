@@ -73,7 +73,7 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <Button className="w-full" asChild>
+          <Button className="w-full" asChild onClick={() => setIsOpen(false)}>
             <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
               Get My Free Quote
             </a>
