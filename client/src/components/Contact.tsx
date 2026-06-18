@@ -5,7 +5,7 @@ import qrCode from "@assets/ggqrcode_1767738636450.png";
 export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-secondary/30 flex flex-col items-center justify-center w-full">
-      <div className="container px-4 md:px-6 max-w-4xl w-full flex flex-col items-center justify-center">
+      <div className="container px-4 md:px-6 w-full flex flex-col items-center justify-center">
         <div className="text-center w-full mb-12">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
             Contact Us
@@ -15,7 +15,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-xl border border-border/50 flex flex-col items-center justify-center gap-12 text-center max-w-2xl mx-auto">
+        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-xl border border-border/50 flex flex-col md:flex-row items-center justify-center gap-12 text-center max-w-5xl w-full mx-auto">
           
           <div className="space-y-8 flex flex-col items-center w-full">
             <div className="flex flex-col items-center gap-4">
