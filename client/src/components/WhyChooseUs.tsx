@@ -32,12 +32,12 @@ export default function WhyChooseUs() {
 
           <Button 
             size="lg" 
-            className="text-lg h-14 px-8 shadow-xl hover:scale-105 transition-all w-full sm:w-auto"
+            className="text-xl md:text-2xl h-16 md:h-20 px-10 md:px-14 shadow-xl hover:scale-105 transition-all w-full sm:w-auto"
             asChild
           >
             <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
               Get Your Free Quote Today!
-              <ArrowRight className="ml-2 w-5 h-5" />
+              <ArrowRight className="ml-2 w-6 h-6 md:w-8 md:h-8" />
             </a>
           </Button>
         </div>

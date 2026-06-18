@@ -47,7 +47,7 @@ export default function Navbar() {
             className={`${isScrolled ? "bg-primary text-primary-foreground" : "bg-white text-primary hover:bg-white/90"}`}
             asChild
           >
-            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">Quote</a>
+            <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">Get My Free Quote</a>
           </Button>
         </div>
 
@@ -75,7 +75,7 @@ export default function Navbar() {
           ))}
           <Button className="w-full" asChild>
             <a href="https://forms.gle/Gi8WJRp5z2ne5hue6" target="_blank" rel="noopener noreferrer">
-              Get Your Free Quote
+              Get My Free Quote
             </a>
           </Button>
         </div>
